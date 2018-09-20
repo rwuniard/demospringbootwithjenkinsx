@@ -11,7 +11,7 @@ public class HelloWorld {
 
     @RequestMapping(value="printHello", method= RequestMethod.GET)
     public String helloWolrd() {
-        return "Hello World!";
+        return "Hello World2!";
     }
 
     @RequestMapping(value="printMessage/{message}", method = RequestMethod.GET)
